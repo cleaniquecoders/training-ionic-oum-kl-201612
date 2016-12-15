@@ -28,15 +28,15 @@ Inject `ngCordova` in `www/js/app.js`.
 angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services', 'ngCordova'])...
 ```
 
-# ngCordova - GeoLocation
+## ngCordova - GeoLocation
 
-## Installation
+### Installation
 
 ```
 sudo cordova plugin add cordova-plugin-geolocation --allow-root
 ```
 
-## Usage
+### Usage
 
 Add the following in one of your controller
 
@@ -58,3 +58,12 @@ function ($scope, $stateParams, $cordovaGeolocation) {
 	    });
 }])
 ```
+
+## Camera
+
+### Installation
+
+```
+sudo cordova plugin add cordova-plugin-camera --allow-root
+```
+
